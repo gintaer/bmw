@@ -1,0 +1,82 @@
+p.czerw {
+    color:red;font-size:40px;text-align:center;
+}
+p.tekst {
+    color:yellow;font-size:25px;
+}
+body {
+    background-image: url("../obrazki/32.jpg");
+	background-size:100% 100%;
+	background-attachment: fixed;
+}
+table.w4 {
+	margin: 0 auto; text-align: center; 
+}
+      ol {
+        list-style-type:none;
+        padding:0;
+        margin:0;
+        font-size:18px;
+        height:2em;
+        line-height:2em;
+        text-align:center;
+		position:relative;
+
+      }
+
+      ol a {
+        display:block;
+        text-decoration:none;
+        color:white;
+        padding:0 5px;
+      }
+
+      ol > li {
+        float:left;
+        width:200px;
+        margin-left:0px;
+        background-color:rgba(50, 250, 50, 0.2);
+		background-color: transparent;
+        height:2em;
+      }
+
+      ol > li:first-child {
+        margin-left:0;
+      }
+
+      ol > li:hover {
+        background-color:#EEE;
+      }
+
+     
+      ol > li:hover > a {
+        color:#09C;
+      }
+
+      ol > li:hover > ul {
+        display:block;
+      }
+
+      ol > li > ul {
+        display:none;
+        list-style-type:none;
+        padding:0;
+        margin:0;
+      }
+
+      ol > li > ul > li {
+        position:relative;
+        background-color:#EEE;
+      }
+
+      ol > li > ul > li > a {
+        border-top:1px solid #FFF;
+      }
+
+      ol > li > ul > li:hover {
+        background-color:#DDD;
+      }
+
+      ol > li > ul > li:hover > a {
+        color:#09C;
+      }
